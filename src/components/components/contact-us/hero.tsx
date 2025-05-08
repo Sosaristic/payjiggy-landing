@@ -32,7 +32,7 @@ const Hero = () => {
           </h2>
           <p>
             Have a question or need assistance? Reach out to us via email,
-            phone, or the contact form below. We're eager to assist you.
+            phone, or the contact form below. We&apos;re eager to assist you.
           </p>
 
           <div className="flex-1 relative min-h-[20rem]">

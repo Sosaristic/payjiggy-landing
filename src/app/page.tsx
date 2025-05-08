@@ -1,5 +1,3 @@
-import Image from 'next/image';
-import Header from '../components/components/header';
 import Hero from '../components/components/home/hero';
 import OurService from '../components/components/home/our-service';
 import PayBillsSection from '@/components/components/home/pay-bills';

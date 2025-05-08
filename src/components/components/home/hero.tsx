@@ -1,7 +1,6 @@
 'use client';
-import React, { useMemo } from 'react';
+import React from 'react';
 import Header from '../header';
-import ThreeCardShowcase from '../three-card-showcase';
 import StoreButtons from '../store-buttons';
 import { usePathname } from 'next/navigation';
 import Image from 'next/image';

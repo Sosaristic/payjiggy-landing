@@ -1,14 +1,7 @@
 'use client';
-import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
-import {
-  Sheet,
-  SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from '@/components/ui/sheet';
+
+import { Menu } from 'lucide-react';
+import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { DialogTitle } from '@radix-ui/react-dialog';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
