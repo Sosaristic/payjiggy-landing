@@ -1,6 +1,5 @@
 'use client';
-import React, { useEffect, useRef, useState } from 'react';
-import ReactMapboxGl, { Layer, Feature } from 'react-mapbox-gl';
+import React, { useEffect, useRef } from 'react';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import { envConfigs } from '@/constants/env-configs';
 import mapboxgl from 'mapbox-gl';
@@ -11,9 +10,9 @@ export default function Map() {
 
   useEffect(() => {
     mapboxgl.accessToken = envConfigs.MAPBOX_ACCESS_TOKEN;
-    //@ts-ignore
+    //@ts-expect-error
     mapRef.current = new mapboxgl.Map({
-      //@ts-ignore
+      //@ts-expect-error
       container: mapContainerRef.current,
       center: [7.0669651, 5.5859456],
 
