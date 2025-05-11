@@ -10,7 +10,7 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: 'Payjiggy',
-  description: 'Payjiggy',
+  description: `PayJiggy is a convenient online platform that enables users to pay utility bills and access a wide range of services. From settling electricity, water, and cable bills to purchasing airtime, data, and WAEC pins, PayJiggy offers a seamless and secure way to manage everyday payments. With an intuitive interface and quick transaction processing, PayJiggy ensures that users can handle their financial commitments with ease, saving time and effort. Whether you're paying for essential services or topping up your phone, PayJiggy is your go-to platform for all your payment needs.`,
 };
 
 export default function RootLayout({
