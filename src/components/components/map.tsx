@@ -10,9 +10,9 @@ export default function Map() {
 
   useEffect(() => {
     mapboxgl.accessToken = envConfigs.MAPBOX_ACCESS_TOKEN;
-    //@ts-expect-error
+    //@ts-expect-error: mapboxgl is not typed
     mapRef.current = new mapboxgl.Map({
-      //@ts-expect-error
+      //@ts-expect-error: mapboxgl is not typed
       container: mapContainerRef.current,
       center: [7.0669651, 5.5859456],
 
