@@ -86,9 +86,9 @@ const Footer = () => {
         <p className="text-sm text-white text-center">All Rights Reserved</p>
 
         <div className="flex gap-2 bg-[#F7931E] px-3 py-2 rounded">
-          {socials.map((social) => {
+          {socials.map((social, i) => {
             return (
-              <a href={social.link} key={social.link}>
+              <a href={social.link} key={i}>
                 <Image src={social.icon} width={30} height={30} alt="icon" />
               </a>
             );
